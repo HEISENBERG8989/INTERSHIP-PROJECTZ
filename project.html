@@ -1,0 +1,1033 @@
+<html>
+
+  <head>
+      <style>
+          .imgg{
+             display: inline-block;
+             width: 4%;
+            }
+          .denta{
+             display: inline-block ;
+             position: absolute; 
+             width: max-content;
+             height: min-content;
+             margin-top: 10px; 
+             margin-bottom: 10px; 
+             border: 1px solid white"
+           }
+          .denta1{
+             display: inline-block; 
+             position: absolute; 
+             font-weight:4px; 
+             top: 20px;
+             left: 930px;
+             width: 40%;
+            }
+          .denta2{
+             display: inline-block; 
+             position: absolute; 
+             font-weight:4px; 
+             top: 40px; 
+             left: 960px;
+             width: 35%;
+            }
+          .details2 {
+             text-align: center;
+             display: table;
+             width: 1100px; 
+             background-color: white;
+             border: 1px solid #6c6868;
+             border-bottom: transparent;
+             border-spacing: 7px;
+             border-radius: 10px;
+             border-bottom-left-radius: 0cap;
+             border-bottom-right-radius: 0cap;
+            }
+          .profile {
+             display: table;
+             width: 117.5%;
+             height: max-content;
+             background-color: #fffcfc;
+             border-spacing: 7px;
+             border : 1px solid #6c6868;
+             border-top: #6c6868 ;
+             border-radius: 10px;
+             border-top-left-radius: 0cap;
+             border-top-right-radius: 0cap;
+             position: sticky;
+            }
+            .divTable {
+             text-align: center;
+             display: table;
+             border-bottom: transparent;
+             width: 1100px;
+             background-color: white;
+             border: 1px solid #6c6868;
+             border-spacing: 7px;
+             border-radius: 10px;
+           }
+           .btn-active {
+             background-color: rgb(127, 209, 127);
+             border-radius: 9px;
+             text-align: right;
+             color: #eee;
+           }
+           .headrow {
+             display: inline-block;
+             text-align: center;
+             font-weight: bold;
+            }
+           .hfirst {
+             width: 90%;
+             text-align: left;
+             padding-left: 10px;
+            }
+            .hlast {
+             width: 7%;
+             text-align: right;
+            }
+           .frstc {
+             display: table;
+             padding-left: 9px;
+             width: 116%;
+             max-height: 5%;
+             background-color: rgb(113, 149, 203);
+             color: #eee;
+             border-radius: 10PX;
+              position: sticky;
+            }
+            .textal {
+             text-align: center;
+             display: inline-block;
+             text-align: top;
+             width: 40%
+            }
+
+            .p {
+              text-align: right;
+            }
+
+            .lbl {
+                font-weight: 400;
+                text-align: right;
+                padding-right: 7px;
+                display: inline-block;
+                width: 20%;
+                position: sticky;
+                color: #625e5ede;
+            }
+
+            .val {
+                padding-left: 3px;
+                display: inline-block;
+                width: 25%;  
+                font-weight: bold;
+            }
+
+            .first {
+                display: block;
+            }
+
+            .val2 {
+                display: inline-block;
+                padding-left: 4px;
+                font-weight: bold;
+            }
+
+            .val3 {
+                display: inline-block;
+                width: 38%;
+                position: sticky;
+                font-weight: bold;
+                text-align: right;
+            }
+            .total{
+                font-weight: bolder;  
+            }
+
+           .nav-item1{
+             align-items: center;
+             padding: 10px;
+             text-align: center;
+            }
+
+           .nav{
+             background-color: #ffffff;
+             color: #000000;
+             border: 4px solid rgb(113, 149, 203);
+             border-radius: 5px;
+             text-align: center;
+             padding-top: 10px; 
+             padding-bottom: 10px;
+             max-width: 9%;
+             max-height: 2%;
+             display: inline-block;
+            }
+            
+            .nav:hover{
+             background-color: rgb(113, 149, 203); 
+                
+            }
+
+           .nav-item1 a {
+             text-decoration: none;
+             color: rgb(113, 149, 203);
+            }
+
+            .nav-item1 a:hover {
+              color: #ffffff;
+           }
+            .nav-item2{
+             align-items: center;
+             text-decoration: none;
+             padding: 10px;
+             text-align: center;
+             display: inline-block;
+            }
+
+            .nav2{
+             background-color: #ffffff;
+             color: #000000;
+             border: 2px solid rgb(186, 187, 189);
+             border-bottom: 1px solid blacks;
+             text-align: center;
+             padding-top: 5px; 
+             padding-bottom: 5px;
+             margin-right: -1;
+            }
+            
+            .nv2first{
+             width: 60%; 
+             left: 40px; 
+             display: inline-block; 
+             position: absolute; 
+             left: 500px; 
+             top: 170px;
+            }
+            .nav-item2 a {
+             text-decoration: none;
+             color: rgb(50, 50, 51);
+            }
+            .nav-item2 a:hover  {
+             color:rgb(113, 149, 203);
+            }
+            .nav2:hover
+            {
+             border-bottom: #ffffff;
+            }
+            .searchP{ 
+             color: green;
+             text-decoration: underline;
+             width: 10%; 
+             height: 10%; 
+             cursor: context-menu; 
+            }
+            .table {
+             display: table;
+             width: 100%;
+             border-collapse: collapse;
+            } 
+           .table-row {
+             display: table-row;
+            }
+
+           .table-cell {
+             display: table-cell;
+             padding: 6px;
+             text-align: left;
+            }
+
+           .table-header {
+             background-color: #f0f0f0;
+            }
+
+           .table-total {
+             background-color: #f0f0f0;
+             font-weight: bold;
+            } 
+           .border{
+             border-bottom: #000000;
+            }
+           .r2{
+              width: 12%;
+            }
+           .r3{
+             width: 25%;
+            }
+           .bold{
+             font-weight: bold;
+            }
+          .space{
+             margin-left: 15%;
+            }
+           .box{
+             background-color: #dedbdb;
+             height: 1999px;
+             position:absolute;
+             left: 0px;
+             width: 160px;
+             border-radius: 6px;
+            }
+            .extra{
+                padding-bottom: 100px;
+            }
+       </style>
+
+      <script>
+          function ds() {
+                if (document.getElementById('search').style.display == 'none' )
+                {
+
+                    document.getElementById('search').style.display = 'block';
+                    document.getElementById('pop').style.display = 'block';
+                    
+                } 
+                else {
+
+                    
+                    document.getElementById('pop').style.display = 'block';
+                    
+                }
+            } 
+            function dp(){
+               if(document.getElementById('pop').style.display='none')
+                {
+                    document.getElementById('search').style.display='none';
+                }
+                else
+                {
+                    document.getElementById('pop').style.display='none';
+                }
+            }
+            function d2( x, y ) {
+                if (document.getElementById( x ).style.display == 'none') {
+
+                    document.getElementById( x ).style.display = 'block';
+                    document.getElementById( y ).style.display = 'block';
+                } else {
+
+                    document.getElementById( x ).style.display = 'none';
+                    document.getElementById(y).style.display = 'none';
+                };
+            }
+            
+
+            function on(){
+                if(document.getElementById('on1').style.display=='block')
+            {
+                document.getElementById('on2').style.display=='none';
+                
+            }
+            else{
+                document.getElementById('on2').style.display='block';
+            }
+            }
+            function down1()
+            {
+                if (document.getElementById('down1').style.display=='none' )
+                {   
+                    document.getElementById('up1').style.display='none';
+                    document.getElementById('down1').style.display='block';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up1').style.display='none';
+                    document.getElementById('down1').style.display='block';
+                };
+
+            }
+            function up1()
+            {
+                if (document.getElementById('up1').style.display=='none' )
+                {   
+                    document.getElementById('up1').style.display='block';
+                    document.getElementById('down1').style.display='none';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up1').style.display='block';
+                    document.getElementById('down1').style.display='none';
+                };
+
+            }
+
+
+            function down2()
+            {
+                if (document.getElementById('down2').style.display=='none' )
+                {   
+                    document.getElementById('up2').style.display='none';
+                    document.getElementById('down2').style.display='block';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up2').style.display='none';
+                    document.getElementById('down').style.display='block';
+                };
+
+            }
+            function up2()
+            {
+                if (document.getElementById('up2').style.display=='none' )
+                {   
+                    document.getElementById('up2').style.display='block';
+                    document.getElementById('down2').style.display='none';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up2').style.display='block';
+                    document.getElementById('down2').style.display='none';
+                };
+
+            }
+            function down3()
+            {
+                if (document.getElementById('down3').style.display=='none' )
+                {   
+                    document.getElementById('up3').style.display='none';
+                    document.getElementById('down3').style.display='block';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up3').style.display='none';
+                    document.getElementById('down3').style.display='block';
+                };
+
+            }
+            function up3()
+            {
+                if (document.getElementById('up3').style.display=='none' )
+                {   
+                    document.getElementById('up3').style.display='block';
+                    document.getElementById('down3').style.display='none';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up3').style.display='block';
+                    document.getElementById('down3').style.display='none';
+                };
+
+            }
+            function down3()
+            {
+                if (document.getElementById('down3').style.display=='none' )
+                {   
+                    document.getElementById('up3').style.display='none';
+                    document.getElementById('down3').style.display='block';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up3').style.display='none';
+                    document.getElementById('down3').style.display='block';
+                };
+
+            }
+            function up3()
+            {
+                if (document.getElementById('up3').style.display=='none' )
+                {   
+                    document.getElementById('up3').style.display='block';
+                    document.getElementById('down3').style.display='none';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up3').style.display='block';
+                    document.getElementById('down3').style.display='none';
+                };
+
+            }
+            function down4()
+            {
+                if (document.getElementById('down4').style.display=='none' )
+                {   
+                    document.getElementById('up4').style.display='none';
+                    document.getElementById('down4').style.display='block';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up4').style.display='none';
+                    document.getElementById('down4').style.display='block';
+                };
+
+            }
+            function up4()
+            {
+                if (document.getElementById('up4').style.display=='none' )
+                {   
+                    document.getElementById('up4').style.display='block';
+                    document.getElementById('down4').style.display='none';
+                } 
+                else{
+
+                    document.getElementById('up4').style.display='block';
+                    document.getElementById('down4').style.display='none';
+                };
+
+            }
+            function down5()
+            {
+                if (document.getElementById('down5').style.display=='none' )
+                {   
+                    document.getElementById('up5').style.display='none';
+                    document.getElementById('down5').style.display='block';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up5').style.display='none';
+                    document.getElementById('down5').style.display='block';
+                };
+
+            }
+            function up5()
+            {
+                if (document.getElementById('up5').style.display=='none' )
+                {   
+                    document.getElementById('up5').style.display='block';
+                    document.getElementById('down5').style.display='none';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up5').style.display='block';
+                    document.getElementById('down5').style.display='none';
+                };
+
+            }  
+            function down6()
+            {
+                if (document.getElementById('down6').style.display=='none' )
+                {   
+                    document.getElementById('up6').style.display='none';
+                    document.getElementById('down6').style.display='block';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up6').style.display='none';
+                    document.getElementById('down6').style.display='block';
+                };
+
+            }
+            function up6()
+            {
+                if (document.getElementById('up6').style.display=='none' )
+                {   
+                    document.getElementById('up6').style.display='block';
+                    document.getElementById('down6').style.display='none';
+                    
+
+                } 
+                else{
+
+                    document.getElementById('up6').style.display='block';
+                    document.getElementById('down6').style.display='none';
+                };
+
+            }
+            
+        </script>
+        <title> DENTAPRISE</title>
+  </head>
+
+ <body>
+     <!----------------------------------------------------------------------------------first heading block------------------------------------------>
+     <div class="denta">
+          <div style="display: inline-block;">
+             <img src="..\images\denta.png"  style="padding-left: 30px; max-width: 30%; height: 40%;">
+      </div>
+         <div class="imgg">
+             <img src="../images/Pname.png" style="width: 10%; position: absolute; left: 1200px; top: 5px; border: 5px solid rgb(214, 216, 212)">
+          </div>
+         <div class="denta1"> Dentaprise | Sunnysmile Dental | Logout</div>
+         <div class="denta2"> Change Role  Brian Nguyen | Admin</div>
+      </div><br><br><br><br><br><br><!------------------------------------------the first heading block----------------------------------------------->
+     <!---------------------------------------------1st block----------------------------------------------------------------->  
+      <div style="display: inline-block;">
+         <div class="nav-item1 nav"><a href="#">Home</a></div>
+         <div class="nav-item1 nav"><a href="#">Leads</a></div>
+         <div class="nav-item1 nav"><a href="#">Patients</a></div>
+         <div class="nav-item1 nav"><a href="#">Opportunity</a></div>
+         <div class="nav-item1 nav"><a href="#">Calendar</a></div>
+         <div class="nav-item1 nav"><a href="#">Reports</a></div>
+         <div class="nav-item1 nav"><a href="#">Dashboard</a></div>
+         <div class="nav-item1 nav"><a href="#">Documents</a></div>
+         <div class="nav-item1 nav"><a href="#">Products</a></div>
+       <div>
+        <!---------------------------------------------1st block----------------------------------------------------------------->
+        <!-----------------------------------------------------------------------------------1st-border--------------------------> 
+        <div>
+         <hr style="border: 4px solid rgb(113, 149, 203) ;  width: 1080px; border-radius: 40; margin-top: -3; margin-left: 0px;  ">
+       </div>
+        <!---------------------------------------------2nd block----------------------------------------------------------------->
+        <div style="height: max-content;">
+          <div  id="patient">
+             <div  class="searchP" onclick="ds()"> Search patient ></div>
+         </div>
+         <div style=" width: 200px; height: 30px; position: absolute; left: 130px; top: 160px;  display: none;" id="search" >
+             <input type="text" width="10" style=" position: absolute; top: 10px; ">
+             <img src="..\images\search.png" width="22px" style="position: absolute; left: 180px; top: 10px;" >
+         </div><br><br>
+         <div style=" display: none;"  id="pop">
+             <img src=" ..\images\10495848.png" width="22px" style="position: absolute; left: 335px; top: 170px;" onclick="dp()">
+         </div>
+          <div class="nv2first"> 
+          <div class="nav-item2 nav2"><a href="#">Appts</a></div>
+          <div class="nav-item2 nav2"><a href="#">Patient</a></div>
+          <div class="nav-item2 nav2"><a href="#">Family</a></div>
+          <div class="nav-item2 nav2"><a href="#">Insurance</a></div>
+          <div class="nav-item2 nav2"><a href="#">Ledger</a></div>
+          <div class="nav-item2 nav2"><a href="#">Tx Plan</a></div>
+          <div class="nav-item2 nav2"><a href="#">Chart</a></div>
+          <div class="nav-item2  nav2"><a href="#">Images</a></div>
+        </div>
+       <!---------------------------------------------2nd block----------------------------------------------------------------->
+       <!----------------------------------------------- lines------------------------------------------------------------------>
+       <div ><hr style="border: 1px solid  rgb(186, 187, 189); position: absolute; width: 490px; top: 190px; left: 13px;"></div>
+       <div ><hr style="border: 1px solid rgb(186, 187, 189); position: absolute; width: 180px; top: 190px; left: 1079px;"></div>
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <div class="space">
+          <!-----------------this for 1st table------------------------------------------------>
+         <div class="box"></div>
+         <div class="frstc" >  PATIENT <BR> Brian Nguyen </div>
+         <div class="details2">
+             <div class="img" id="up1" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;" onclick="d2('profilez' ,'hdet9');down1()"></div>
+             <div id="down1" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;" onclick="up1();d2('profilez' ,'hdet9')"></div>
+             <div class="headrow hfirst">Patient FILE</div>
+             <div class="headrow hlast">
+                 <button class="btn-active">EDIT</button>
+             </div>
+             <div id="hdet9">
+                 <hr style="border: 3px solid rgb(113, 149, 203);">
+             </div>
+           </div>  
+           <div class="profile" id="profilez"> 
+                <div style="width: 4%;">
+                    <img src="../images/Pname.png" style="width: 10%; height: 40%; position: absolute; bottom: 150px;left: 30px; border: 3px solid rgb(135, 130, 130);">
+                </div>   
+             <div style="display: inline-block; width: 70%;  padding-left: 200px; padding-bottom: 10px;">
+                 <div class="lbl">Patient ID</div>
+                 <div class="val">123456</div>
+                 <div class="lbl">Address</div>
+                 <div class="val">1200 McKay Drive</div><br>&nbsp;<br>
+                 <div class="lbl">Name</div>
+                 <div class="val">Brian Nguyen</div>
+                 <div class="val3">San Jose, CA 95131</div><br>&nbsp;<br>
+                 <div class="lbl">Title</div>
+                 <div class="val">Mr.</div>
+                 <div class="lbl">Home Phone</div>
+                 <div class="val">510-786-3297</div><br>&nbsp;<br>
+                 <div class="lbl">Language</div>
+                 <div class="val">English</div>
+                 <div class="lbl">Mobile Phone</div>
+                 <div class="val">408-888-2193</div><br>&nbsp;<br>
+                 <div class="lbl">Guarantor</div>
+                 <div class="val">Dinh Nguyen</div>
+                 <div class="lbl">Email</div>
+                 <div class="val">brian.nguyen@dentaprise.com</div><br>&nbsp;<br>
+                 <div class="lbl">Position/Gender</div>
+                 <div class="val">Child / Male</div>
+                 <div class="lbl">Emp Name</div>
+                 <div class="val">Dentaprise Corporation</div><br>&nbsp;<br>
+                 <div class="lbl">Birth Date</div>
+                 <div class="val">07/26/1970</div>
+                 <div class="lbl">Work Phone</div>
+                 <div class="val">408-888-8888</div><br>&nbsp;<br>
+                 <div class="lbl">Social Security</div> 
+                 <div class="val">123-45-6789</div>
+             </div>   
+          </div><br><br><!-------------------------------------first table-->
+          <!------------------------------------------this for 2nd table-->
+            <div class="divTable">
+             <div class="img" id="up2" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;" onclick="d2('details0' ,'hdet0');down2()"></div>
+             <div id="down2" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;" onclick="up2();d2('details0' ,'hdet0')"></div>
+             <div class="headrow hfirst">Family</div>         
+             <div class="headrow hlast">
+                  <button class="btn-active">EDIT</button>
+             </div>
+             <div id="hdet0">
+                    <hr style="border: 3px solid rgb(113, 149, 203);">
+             </div>
+             <div id="details0">
+                  <diV class="table"> 
+                     <div class="table-header table-row">
+                         <div class="table-cell r3">Name</div>
+                         <div class="table-cell">Position</div>
+                         <div class="table-cell">G</div>
+                         <div class="table-cell">Status</div>
+                         <div class="table-cell">Birth Date</div>
+                         <div class="table-cell">Age</div>
+                         <div class="table-cell r3"> Type</div>
+                         <div class="table-cell ">Prev. Date</div>
+                         <div class="table-cell">Sched. Date</div>
+                        </div>
+                        <div class="table-row">
+                         <div class="table-cell r3">Brian Nguyen</div>
+                         <div class="table-cell">Single</div>
+                         <div class="table-cell">M</div>
+                         <div class="table-cell">Active</div>
+                         <div class="table-cell">07/26/1970</div>
+                         <div class="table-cell">38</div>
+                         <div class="table-cell r3">Recall</div>
+                         <div class="table-cell">07/26/2007</div>
+                         <div class="table-cell"> 07/27/2008</div>
+                        </div>  
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row">
+                         <div class="table-cell r3">Brian Nguyen</div>
+                         <div class="table-cell">Single</div>
+                         <div class="table-cell">M</div>
+                         <div class="table-cell">Active</div>
+                         <div class="table-cell">07/26/1970</div>
+                         <div class="table-cell">38</div>
+                         <div class="table-cell r3">Recall</div>
+                         <div class="table-cell">07/26/2007</div>
+                         <div class="table-cell"> 07/27/2008</div>
+                        </div>  
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row">
+                         <div class="table-cell r3">Brian Nguyen</div>
+                         <div class="table-cell">Single</div>
+                         <div class="table-cell">M</div>
+                         <div class="table-cell">Active</div>
+                         <div class="table-cell">07/26/1970</div>
+                         <div class="table-cell">38</div>
+                         <div class="table-cell r3">Recall</div>
+                         <div class="table-cell">07/26/2007</div>
+                         <div class="table-cell"> 07/27/2008</div>
+                        </div> 
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%"> 
+                        <div class="table-row">
+                         <div class="table-cell r3">Brian Nguyen</div>
+                         <div class="table-cell">Single</div>
+                         <div class="table-cell">M</div>
+                         <div class="table-cell">Active</div>
+                         <div class="table-cell">07/26/1970</div>
+                         <div class="table-cell">38</div>
+                         <div class="table-cell r3">Recall</div>
+                         <div class="table-cell">07/26/2007</div>
+                         <div class="table-cell"> 07/27/2008</div>
+                        </div>  
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row">
+                         <div class="table-cell r3">Brian Nguyen</div>
+                         <div class="table-cell">Single</div>
+                         <div class="table-cell">M</div>
+                         <div class="table-cell">Active</div>
+                         <div class="table-cell">07/26/1970</div>
+                         <div class="table-cell">38</div>
+                         <div class="table-cell r3">Recall</div>
+                         <div class="table-cell">07/26/2007</div>
+                         <div class="table-cell"> 07/27/2008</div>
+                        </div>  
+                    </diV>   
+                </diV>
+            </div><br><br>
+           <!---------------------------------------------------------------------------2nd table-->
+           <!----------3rd table------------------------------------------------>
+          <div class="divTable">
+             <div class="img" id="up3" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;" onclick="d2('details1' ,'hdet1');down3()"></div>
+             <div id="down3" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;" onclick="up3();d2('details1' ,'hdet1')"></div>
+             <div class="headrow hfirst">Insurance</div>
+              <div class="headrow hlast">
+                    <button class="btn-active">EDIT</button>
+                </div>
+                <div id="hdet1">
+                        <hr style="border: 3px solid rgb(113, 149, 203);">
+                </div>
+               <div id="details1">
+                    <div class="table">
+                        <div  class="table-row table-header">
+                            <div class="table-cell">p/s</div>
+                            <div class="table-cell">Subscriber</div>
+                            <div class="table-cell">ID</div>
+                            <div class="table-cell">Rel</div>
+                            <div class="table-cell">Status</div>
+                            <div class="table-cell">Eff. Date</div>
+                            <div class="table-cell">Carrier Name</div>
+                            <div class="table-cell">Group #</div>
+                            <div class="table-cell">Phone</div>
+                            <div class="table-cell">Max</div>
+                            <div class="table-cell">Bal</div>
+                            <div class="table-cell">Ded</div>
+                            <div class="table-cell">Bal</div>
+                        </div>  
+                        <div class="table-row">
+                            <div class="table-cell">P</div>
+                            <div class="table-cell">Brian Nguyen</div>
+                            <div class="table-cell">123-45-6789</div>
+                            <div class="table-cell">Self</div>
+                            <div class="table-cell">Pending</div>
+                            <div class="table-cell">12/15/2008</div>
+                            <div class="table-cell">Delta</div>
+                            <div class="table-cell">789456</div>
+                            <div class="table-cell"> 800-456-8954</div>
+                            <div class="table-cell">1000</div>
+                            <div class="table-cell">750</div>
+                            <div class="table-cell">100</div>
+                            <div class="table-cell">50</div>
+                        </div> 
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 2700%">
+                        <div class="table-row"> 
+                            <div class="table-cell">P</div>
+                            <div class="table-cell">Brian Nguyen</div>
+                            <div class="table-cell">123-45-6789</div>
+                            <div class="table-cell">Self</div>
+                            <div class="table-cell">Pending</div>
+                            <div class="table-cell">12/15/2008</div>
+                            <div class="table-cell">Delta</div>
+                            <div class="table-cell">789456</div>
+                            <div class="table-cell"> 800-456-8954</div>
+                            <div class="table-cell">1000</div>
+                            <div class="table-cell">750</div>
+                            <div class="table-cell">100</div>
+                            <div class="table-cell">50</div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><!----------------------------3rd table-------------->
+          <div class="divTable"><!--------------this is for 4th table----------->
+                <div class="img" id="up4" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;" onclick="d2('details2' ,'hdet2');down4()"></div>
+                <div id="down4" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;" onclick="up4();d2('details2' ,'hdet2')"></div>
+                <div class="headrow hfirst">Recare</div>
+                <div class="headrow hlast">
+                    <button class="btn-active">EDIT</button>
+                </div>
+                <div id="hdet2">
+                    <hr style="border: 3px solid rgb(113, 149, 203);">
+                </div>
+                <div id="details2"> 
+                    <div class="table">  
+                        <div class="table-header table-row">
+                            <div class="table-cell r2"> Code </div>
+                            <div class="table-cell r2">Interval</div>
+                            <div class="table-cell">Recare</div>
+                            <div class="table-cell r2">Last App.</div>
+                            <div class="table-cell r2">Sched. App</div>
+                        </div>   
+                        <div class="table-row">
+                            <div class="table-cell r2">D0110</div>
+                            <div class="table-cell r2">6M + 1D</div>
+                            <div class="table-cell">New Patient Exam</div>
+                            <div class="table-cell r2">11/07/2007</div>
+                            <div class="table-cell r2">11/08/2008</div>
+                        </div>
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 830%">
+                        <div class="table-row">
+                            <div class="table-cell r2">D0120</div>
+                            <div class="table-cell r2">6M + 1D</div>
+                            <div class="table-cell">Perio Prophy</div>
+                            <div class="table-cell r2">11/08/2008</div>
+                            <div class="table-cell r2">12/14/2008</div>
+                        </div>
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 830%">
+                        <div class="table-row">
+                            <div class="table-cell r2">D0110</div>
+                            <div class="table-cell r2">6M + 1D</div>
+                            <div class="table-cell">New Patient Exam</div>
+                            <div class="table-cell r2">11/07/2007</div>
+                            <div class="table-cell r2">11/08/2008</div>
+                        </div>
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 830%">
+                        <div class="table-row">
+                            <div class="table-cell r2">D0120</div>
+                            <div class="table-cell r2">6M + 1D</div>
+                            <div class="table-cell">Perio Prophy</div>
+                            <div class="table-cell r2">11/08/2008</div>
+                            <div class="table-cell r2">12/14/2008</div>
+                        </div>
+                    </div>  
+              </div>
+            </div><br><br> 
+            <!----------------------------------------------------------------this is for 4th table----------->
+
+            <div class="divTable"><!---------------this is for 5th table-------------->
+                <div class="img" id="up5" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;" onclick="d2('details3' ,'hdet3');down5()"></div>
+                <div id="down5" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;" onclick="up5();d2('details3' ,'hdet3')"></div>
+                <div class="headrow hfirst">Treatment Plan</div>
+                <div class="headrow hlast">
+                    <button class="btn-active">EDIT</button>
+                </div>
+                <div id="hdet3">
+                    <hr style="border: 3px solid rgb(113, 149, 203);">
+                </div>
+                <div id="details3">
+                    <div class="table"> 
+                        <div class="table-header table-row">
+                            <div class="table-cell r3"> Plan Name</div>
+                            <div class="table-cell">Date Created </div>
+                            <div class="table-cell">Date Expires</div>
+                            <div class="table-cell">Our Fee</div>
+                            <div class="table-cell">Ins.Est.</div>   
+                            <div class="table-cell">Pat. Est.</div>
+                            <div class="table-cell">Adj. Est.</div>
+                            <div class="table-cell">Total</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell r3"> Standard</div>
+                            <div class="table-cell">12/10/2008</div>
+                            <div class="table-cell">01/10/2009</div>
+                            <div class="table-cell">500.00</div>
+                            <div class="table-cell">250.00</div>   
+                            <div class="table-cell">200.00</div>
+                            <div class="table-cell">50.00</div>
+                            <div class="table-cell">450.00</div>
+                        </div>
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row">
+                            <div class="table-cell r3">Good</div>
+                            <div class="table-cell">12/10/2008</div>
+                            <div class="table-cell">01/10/2009</div>
+                            <div class="table-cell">500.00</div>
+                            <div class="table-cell">250.00</div>   
+                            <div class="table-cell">200.00</div>
+                            <div class="table-cell">50.00</div>
+                            <div class="table-cell">450.00</div>
+                        </div>
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row">
+                            <div class="table-cell r3">Better</div>
+                            <div class="table-cell">12/10/2008</div>
+                            <div class="table-cell">01/10/2009</div>
+                            <div class="table-cell">500.00</div>
+                            <div class="table-cell">250.00</div>   
+                            <div class="table-cell">200.00</div>
+                            <div class="table-cell">50.00</div>
+                            <div class="table-cell">450.00</div>
+                        </div>
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row">
+                            <div class="table-cell r3">Best</div>
+                            <div class="table-cell">12/10/2008</div>
+                            <div class="table-cell">01/10/2009</div>
+                            <div class="table-cell">500.00</div>
+                            <div class="table-cell">250.00</div>   
+                            <div class="table-cell">200.00</div>
+                            <div class="table-cell">50.00</div>
+                            <div class="table-cell">450.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><!----------------5th table-->
+            <!---------------this is for 6th table-------------->
+            <div class="divTable">
+                <div class="img " id="up6" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;" onclick="d2('details4' , 'hdet4');down6()"></div>
+                <div id="down6" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;" onclick="up6();d2('details4' , 'hdet4')"></div>
+                <div class="headrow hfirst">Ledger</div>
+                <div class="headrow hlast">
+                    <button class="btn-active">EDIT</button>
+                </div>
+                <div id="hdet4">
+                    <hr style="border: 3px solid rgb(113, 149, 203);">
+                </div>
+                <div id="details4">
+                    <div class="table">
+                        <div class="table-header table-row">
+                            <div class="table-cell r3">Type</div>
+                            <div class="table-cell">0.00</div>
+                            <div class="table-cell">Over 30</div>
+                            <div class="table-cell">Over 60</div>
+                            <div class="table-cell">Over 90</div>   
+                            <div class="table-cell">Over 120</div>
+                            <div class="table-cell">Balance</div>
+                        </div> 
+                        <div class="table-row">
+                            <div class="table-cell r3">Estimated Insurance Portion</div>
+                            <div class="table-cell">0.00</div>
+                            <div class="table-cell">75.00</div>
+                            <div class="table-cell">500.00</div>
+                            <div class="table-cell">800.00</div>   
+                            <div class="table-cell">1000.00</div>
+                            <div class="table-cell">2375.00</div>
+                        </div> 
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row">
+                            <div class="table-cell r3">Estimated Patient Portion</div>
+                            <div class="table-cell ">0.00</div>
+                            <div class="table-cell">75.00</div>
+                            <div class="table-cell">500.00</div>
+                            <div class="table-cell">800.00</div>   
+                            <div class="table-cell">1000.00</div>
+                            <div class="table-cell">2375.00</div>
+                        </div> 
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%">
+                        <div class="table-row ">
+                            <div class="table-cell r3">Estimated Adjustments</div>
+                            <div class="table-cell">0.00</div>
+                            <div class="table-cell">0.00</div>
+                            <div class="table-cell">0.00</div>
+                            <div class="table-cell">0.00</div>   
+                            <div class="table-cell">0.00</div>
+                            <div class="table-cell">0.00</div>
+                        </div> 
+                        <hr style="border: 1px solid rgb(199, 194, 194); margin-top: 0%; margin-bottom: 0%; width: 400%"><div></div>
+                        <div class="table-row bold border">
+                            <div class="table-cell r3">TOTAL</div>
+                            <div class="table-cell">0.00</div>
+                            <div class="table-cell"> 150.00</div>
+                            <div class="table-cell">1000.00</div>
+                            <div class="table-cell">1600.00</div>   
+                            <div class="table-cell">2000.00</div>
+                            <div class="table-cell">4750.00</div>
+                        </div> 
+                    </div>
+                </div>
+            </div><br><br>
+            <!--------------------------------------------this is 6th table--> 
+            <div class="divTable extra">
+             <div class="img " id="up6" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;" ></div>
+             <div id="down6" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;" ></div>
+             <div class="headrow hfirst">Open Activities</div>
+             <div class="headrow hlast">
+                 <button class="btn-active">EDIT</button>
+             </div>
+             <div id="hdet4">
+                 <hr style="border: 3px solid rgb(113, 149, 203);">
+             </div>
+             <div id="details4">
+                  <div class="table">
+                      <div class="table-header table-row"></div>
+                  </div>
+              </div>       
+           </div><br><br><br>
+
+           <div class="divTable extra">
+             <div class="img " id="up6" style="float: inline-start;"><img src="../images/dropdown.jpg" width="20%" style=" position: sticky; width: 20px; top: 940px; left: 12px;"></div>
+             <div id="down6" style= "float: inline-start; display:none"  ><img src="..\images\dropdown2.jpg" width="5%" style=" position: sticky; width: 15px; top: 960px; left: 200px;"></div>
+             <div class="headrow hfirst">Notes & Attachments</div>
+             <div class="headrow hlast">
+                 <button class="btn-active">EDIT</button>
+             </div>
+             <div id="hdet4">
+                 <hr style="border: 3px solid rgb(113, 149, 203);">
+             </div>
+             <div id="details4">
+                 <div class="table">
+                     <div class="table-header table-row"></div>
+                 </div>
+              </div>
+           </div>            
+      </div>    
+  </body>
+</html>  
